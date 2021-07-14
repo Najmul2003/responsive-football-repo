@@ -1,0 +1,160 @@
+body{
+    font-family: "Trirong", serif;
+}
+nav{
+    width: 100%;
+    height: 75%;
+    line-height: 75px;
+    padding: 0px 100px;
+    position: fixed;
+    z-index: 1;
+}
+nav .logo{
+    font-size: 30px;
+    font-weight: bold;
+    letter-spacing: 1.5px;
+}
+nav .logo p{
+    float: left;
+    color: #fff;
+    text-transform: uppercase; 
+}
+nav ul .logo{
+   font-size: 30px;
+   font-weight: bold;
+   letter-spacing: 1.5px;
+}
+nav ul{
+    float: right;
+}
+nav ul li{
+    display:inline-block;
+    list-style: none;
+}
+nav ul li a{
+    color: rgb(255, 217, 0);
+    font-size: 18px;
+    text-transform: uppercase;
+    padding:0px 32px;
+}
+nav ul li a:hover{
+    color:rgb(176, 197, 197) ;
+}
+nav ul li .active{
+    color: rgb(255, 230, 0);
+}
+h1{
+    font-size: 90px;
+    color: rgb(51, 0, 235);
+}
+section{
+    display: flex;
+    background-color: rgb(97, 94, 94);
+    background-position: 1100px;
+}
+.link-button{
+    text-decoration: none;
+    background-image: linear-gradient(rgb(1, 9, 121), rgb(41, 149, 202));
+    padding: 8px 35px;
+    font-size: 15px;
+    border-radius: 5px;
+    font-weight: 700;
+    color: rgb(1, 255, 242);
+    margin-right: 40px;
+}
+.half-width{
+    width: 47%;
+}
+.half-width img{
+    width: 100%;
+    margin-left: 80px;
+    margin-top: 20px;
+}
+.experience-item{
+    box-shadow:10px 10px 40px rgb(16, 13, 68);
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 20px;
+}
+#web-dev{
+    border-left: 7px solid;
+    border-image: linear-gradient(blue, cyan);
+    border-image-slice: 1;
+}
+#web-ex{
+    border-left: 7px solid;
+    border-image: linear-gradient(orange,green); 
+    border-image-slice: 1;
+}
+.sami-kakka{
+    display: flex;
+}
+.ammu{
+    width: 450px;
+}
+.padd{
+    padding-bottom: 40px;
+}
+p{
+    color: blanchedalmond;
+}
+.messi{
+    width: 1000px;
+}
+.back-ground{
+    background-color: cadetblue;
+    padding-left: 100px;
+    padding-top: 80px;
+}
+/* Style all font awesome icons */
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+  }
+  
+  /* Add a hover effect if you want */
+  .fa:hover {
+    opacity: 0.7;
+  }
+  
+  /* Set a specific color for each brand */
+  
+  /* Facebook */
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+  
+  /* Twitter */
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
+  /* youtube  */
+  .fa-youtube{
+    background: #f32106;
+    color: white;
+  }
+  /* instagram  */
+  .fa-instagram{
+      background-color: rgb(214, 4, 241);
+      color: white;
+  }
+  .icon{
+      text-align: center;
+  }
+  footer{
+      background-color: darkgray;
+      text-align: center;
+  }
+  footer p{
+      color: black;
+  }
+.kick{
+    text-align: center;
+    background-color: rgb(114, 107, 107);
+}
